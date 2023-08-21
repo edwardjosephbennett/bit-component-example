@@ -1,0 +1,19 @@
+.button-group {
+    display: flex;
+
+    &[data-direction="stacked"] {
+        flex-direction: column;
+
+        > * {
+            margin-bottom: 10px;
+        }
+    }
+
+    &[data-direction="row"] {
+        flex-direction: row;
+
+        > * {
+            margin-right: 10px;
+        }
+    }
+}

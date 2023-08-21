@@ -1,0 +1,42 @@
+.button {
+    padding: 7px 10px;
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.button--hasIcon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button--hasIcon span {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+[data-variant="small"] {
+    color: orange;
+    padding: 5px;
+    border-color: orange;
+}
+
+[data-variant="big"] {
+    color: purple;
+    padding: 10px;
+    border-color: purple;
+}
+
+[data-variant="xxl"] {
+    color: green;
+    padding: 20px;
+    border-color: green;
+}
+
+[data-variant="xxxl"] {
+    color: red;
+    padding: 30px;
+    border-color: red;
+}
+
